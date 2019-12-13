@@ -1,0 +1,24 @@
+﻿<Window x:Class="LibraryBookUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LibraryBookUI"
+        mc:Ignorable="d"
+        Title="Library" Height="500" Width="700">
+    <Grid Margin="0,0,-8,0">
+        <Button x:Name="ButtonAdd" Content="Добавить" HorizontalAlignment="Left" Margin="31,410,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="ButtonAdd_Click"/>
+        <Button x:Name="ButtonUpdate" Content="Изменить" HorizontalAlignment="Left" Margin="157,410,0,0" VerticalAlignment="Top" Width="76" Height="40" RenderTransformOrigin="0.459,-0.001" Click="ButtonUpdate_Click"/>
+        <Button x:Name="ButtonDelete" Content="Удалить" HorizontalAlignment="Left" Margin="420,410,0,0" VerticalAlignment="Top" Width="76" Height="40" Click="ButtonDelete_Click"/>
+        <ListView x:Name="listLibrary" HorizontalAlignment="Left" Height="357" Margin="10,33,0,0" VerticalAlignment="Top" Width="508">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Title}" Width="350">Название книги</GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=Company}" Width="120">Автор</GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+D:\403 группа\LibraryBook\LibraryBookController\bin\Debug\LibraryBookController.dll
+D:\403 группа\LibraryBook\LibraryBookController\bin\Debug\LibraryBookController.pdb
+D:\403 группа\LibraryBook\LibraryBookController\bin\Debug\LibraryBookModels.dll
+D:\403 группа\LibraryBook\LibraryBookController\bin\Debug\LibraryBookModels.pdb
+D:\403 группа\LibraryBook\LibraryBookController\obj\Debug\LibraryBookController.csprojResolveAssemblyReference.cache
+D:\403 группа\LibraryBook\LibraryBookController\obj\Debug\LibraryBookController.dll
+D:\403 группа\LibraryBook\LibraryBookController\obj\Debug\LibraryBookController.pdb
